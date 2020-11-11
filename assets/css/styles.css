@@ -144,6 +144,9 @@ img {
     transition: 0.5s;
     backdrop-filter: blur(10px);
   }
+  .web {
+    display: none;
+  }
 }
 .nav__item {
   margin-bottom: var(--mb-4);
@@ -553,8 +556,10 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-  .bd-grid {
-    margin-left: auto;
-    margin-right: auto;
+  header,
+  main,
+  section,
+  footer {
+    display: none;
   }
 }
